@@ -23,17 +23,14 @@ class UserInput extends Component {
     return(
       <form onSubmit={this.handleOnSubmit}>
         <p>
-          <input
-            type="text"
-            id="username"
+          <input type="text" id="username"
             onChange={this.handleInputChange}
             placeholder="username"
           />
         </p>
         <p>
           <input
-            type="text"
-            id="hometown"
+            type="text" id="hometown"
             onChange={this.handleInputChange}
             placeholder="hometown"
           />
